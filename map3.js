@@ -3,6 +3,8 @@ $(document).ready(function(){
       // Asynchronously Load the map API
       var script = document.createElement('script');
       script.src = "https://maps.googleapis.com/maps/api/js?callback=initialize";
+      // can include API key by adding it to the key =
+      // script.src = "https://maps.googleapis.com/maps/api/js?key= &callback=initialize";
       document.body.appendChild(script);
 
   });
